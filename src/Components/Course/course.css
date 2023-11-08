@@ -1,0 +1,145 @@
+  .course{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+  }
+  
+  .course .box{
+    flex:1 1 30rem;
+    border-radius: .5rem;
+    border:.1rem solid rgba(0,0,0,.1);
+    padding:1rem;
+    position: relative;
+  }
+  
+  .course .box img{
+    height:20rem;
+    width:100%;
+  }
+  
+  .course .box .amount{
+    position: absolute;
+    top:1rem; left:1rem;
+    font-size: 2rem;
+    padding:.5rem 1rem;
+    background:var(--pink);
+    color:#fff;
+    border-radius: .5rem;
+  }
+  
+  .course .box .stars i{
+    color:var(--violet);
+    font-size: 1.5rem;
+    padding:1rem 0;
+  }
+  
+  .course .box h3{
+    color:var(--pink);
+    font-size: 2.5rem;
+  }
+  
+  .course .box p{
+    color:#666;
+    font-size: 1.5rem;
+    padding:.5rem 0;
+  }
+  
+  .course .icons{
+    display: flex;
+    justify-content: space-between;
+    border-top: .1rem solid rgba(0,0,0,.1);
+    margin-top: 1rem;
+    padding:.5rem;
+    padding-top: 1rem;
+  }
+ 
+  .course .icons p{
+    color:#666;
+    font-size: 1.3rem;
+  }
+  
+  .course .icons p i{
+    padding-right: .4rem;
+    color:var(--pink);
+  }
+
+  .course-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 8vw;
+    
+  }
+
+  hr{
+    height: 2px;
+    background-color: #716e6e;
+    margin-bottom: 2rem;
+  }
+
+  .course-inner p{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .course-inner li{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+
+  .course-inner span{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 2rem;
+  }
+
+  .course-inner h5{
+    font-size: 2.3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+
+  .course-inner h6{
+    font-size: 1.8rem;
+    color: #716e6e;
+  }
+
+  .course-inner .overview{
+    width: 70%;
+    margin-right: 4rem;
+  }
+
+  .course-inner .overview .course-img{
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+  }
+
+  .course-inner .overview .course-head{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .course-inner .overview .course-head .c-name{
+    width: 70vh;
+  }
+  .course-inner .overview .course-head{
+    padding: 16px 13px;
+    font-size: 3.4rem;
+    
+  }
+  .course-inner .tutor{
+    display: flex;
+  }
+
+  .course-inner .overview .tutor img{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    margin-right: 2rem;
+  }
+
